@@ -1,12 +1,11 @@
 <script setup lang="ts">
 import { RouterView } from 'vue-router'
 import { Suspense } from 'vue'
-import HeaderPage from '@/components/HeaderPage.vue'
+
 </script>
 
-<template>
-    <HeaderPage />
-    <main>
+<template> 
+    <main class="bg-[#F3EBF6]">
         <Suspense>
             <RouterView />
         </Suspense>
